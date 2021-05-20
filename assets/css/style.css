@@ -230,19 +230,58 @@ div#preloader {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 150px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   background-color:white;
   color:black;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
 #header.header-scrolled {
   background:white;
-  height: 60px;
-  padding: 10px 0;
+  height: 150px;
+  /* padding: 10px 0; */
+}
+/* top nav  */
+
+#main-navbar {
+  font: 1.15em;
+  background: #444;
+  height: 50px;
+}
+
+#main-navbar ul {
+  margin: 0;
+  padding: 0;
+}
+#main-navbar .icon-right{
+  float:right;
+  margin-top:-30px;
+  font-size: 20px;
+}
+
+#main-navbar li {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size:20px;
+}
+
+#main-navbar li a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-navbar li a:hover {
+  padding-bottom: 3px;
+  color: chocolate;
+}
+
+.d-flex{
+  padding-top: 25px;
+
 }
 
 #header .logo h1 {
@@ -336,7 +375,7 @@ div#preloader {
   color: black;
   padding: 8px 15px 12px 15px;
   transition: 0.3s;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -2568,7 +2607,7 @@ strong {
   }
 }
 
-#services
+#programs
 {
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../img/slider/slider1.jpg");
     background-size: cover;
@@ -2578,13 +2617,13 @@ strong {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-#services h1
+#programs h1
 {
     text-align: center;
     color: #efefef !important;
     padding-bottom: 10px;
 }
-#services h1::after
+#programs h1::after
 {
     content: '';
     background: black;
@@ -2593,7 +2632,7 @@ strong {
     width: 170px;
     margin: 20px auto 5px;
 }
-.services
+.programs
 {
     margin-top: 40px;
 }
@@ -2609,16 +2648,16 @@ strong {
     background-color:black;
     color:white;
 }
-#services h3{
+#programs h3{
   color:chocolate;
 }
-#services p
+#programs p
 {
     font-size: 14px;
     margin-top: 20px;
     color: #ccc;
 }
-.services .col-md-3:hover
+.programs .col-md-3:hover
 {
     background:rgb(133, 67, 19);;
     cursor: pointer;

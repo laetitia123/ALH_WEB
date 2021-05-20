@@ -4,7 +4,7 @@
 body {
     color: #213546;
     background: #eeeeee;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -62,7 +62,7 @@ a:focus {
 .header .brand img {
     width: 300px;
     /* max-width: 350px; */
-    height:100px;
+    height:200px;
     /* max-height: 100px;W */
 }
 
@@ -218,8 +218,9 @@ a:focus {
 /*******************************/
 .page-header {
     /* position: relative; */
-    margin-bottom: 45px;
-    padding: 80px 0;
+    /* margin-bottom: 45px; */
+    height:350px;
+    padding-top: 180px ;
     text-align: center;
     background: linear-gradient(to right, chocolate, rgb(112, 58, 19) 50%);
 }
@@ -845,7 +846,7 @@ a:focus {
 }
 
 .faqs .card-header [data-toggle="collapse"]:after {
-    font-family: 'font Awesome 5 Free';
+    font-family: 'Open Sans', sans-serif;
     content: "\f067";
     float: right;
     color: #00539C;
@@ -855,7 +856,7 @@ a:focus {
 }
 
 .faqs .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
-    font-family: 'font Awesome 5 Free';
+    font-family: 'Open Sans', sans-serif;
     content: "\f068";
     float: right;
     color: #00539C;
@@ -1857,7 +1858,7 @@ a:focus {
 .footer .footer-link a::before {
     position: relative;
     content: "\f0da";
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     margin-right: 10px;
 }
