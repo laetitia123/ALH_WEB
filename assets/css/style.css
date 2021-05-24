@@ -206,7 +206,7 @@ div#preloader {
 }
 
 .section-headline h2::after {
-  border: 1px solid #333;
+  border: 1px solid chocolate;
   bottom: -20px;
   content: "";
   left: 0;
@@ -315,7 +315,7 @@ div#preloader {
   padding: 0;
   margin: 0;
   max-height: 40px;
-  margin-left: -80px;
+  /* margin-left: -80px; */
 }
 
 @media (max-width: 768px) {
@@ -987,6 +987,10 @@ MISSION AND VISION
 .single-well p {
   color: #444;
   margin-top:20px;
+  font-size: 18px;
+  line-height:3rem;
+  padding-right: 20px;
+  text-align:justify;
 }
 
 /*--------------------------------------------------------------
@@ -1566,7 +1570,9 @@ MISSION AND VISION
 .contact-area {
   height: auto;
   width: 100%;
+
 }
+
 
 .contact-content {
   padding: 100px;
@@ -1581,7 +1587,7 @@ MISSION AND VISION
   font-size: 24px;
   width: 50px;
   height: 50px;
-  border: 1px solid #444;
+  border: 1px solid chocolate;
   line-height: 46px;
   border-radius: 50%;
   margin-bottom: 20px;
@@ -2283,7 +2289,7 @@ span.email-notes {
 }
 
 .footer-contacts p span {
-  color: #3EC1D5;
+  color: chocolate;
   font-weight: 700;
 }
 
@@ -2297,7 +2303,7 @@ span.email-notes {
 }
 
 .popular-tag ul li a:hover, .footer-icons ul li a:hover {
-  background: #3EC1D5;
+  background: chocolate;
   border: 1px solid #3EC1D5;
   color: #fff;
 }
@@ -2326,7 +2332,7 @@ span.email-notes {
 
 .copyright-text a:hover {
   text-decoration: underline;
-  color: #3EC1D5;
+  color: chocolate;
 }
 
 .copyright-text a {
@@ -2626,15 +2632,20 @@ strong {
 #programs h1::after
 {
     content: '';
-    background: black;
+    background:chocolate;
     display: block;
     height: 3px;
-    width: 170px;
+    width: 150px;
     margin: 20px auto 5px;
+    /* width: 40%; */
+
 }
 .programs
 {
     margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
 }
 .icon
 {
@@ -2653,9 +2664,12 @@ strong {
 }
 #programs p
 {
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 20px;
+    line-height: 3rem;
     color: #ccc;
+    text-align: justify;
+    word-spacing:0.5rem;
 }
 .programs .col-md-3:hover
 {
@@ -2694,11 +2708,11 @@ section {
 
 section .section-title {
     text-align: center;
-    color: chocolate;
+    color:chocolate;
     margin-bottom: 50px;
-    text-transform: uppercase;
+    text-transform: capitalize
 }
-
+ 
 #team .card {
     border: none;
     background: #ffffff;
@@ -2802,11 +2816,18 @@ section .section-title {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-gap: 20px;
   align-items: stretch;
   padding-bottom: 100px;
+  /* margin-left: 100px; */
 
+}
+.grid .text i{
+  background-color: chocolate;
+  font-size: 30px;
+margin-top: 10px;
+  align-items: center;
 }
 
 .grid > article {
