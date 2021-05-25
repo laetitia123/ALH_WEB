@@ -127,12 +127,19 @@ a:focus {
 @media (min-width: 992px) {
   
     .header .navbar {
-        background: #ffffff !important;
+        /* background: #ffffff !important; */
+        background-color: red;
         /* position: fixed; */
     }
-    
+    .header .brand img {
+        width: 300px;
+        /* max-width: 350px; */
+        height:200px;
+        /* max-height: 100px;W */
+    }
     .header .navbar-brand {
         display: none;
+        background: #3f4b5a;
     }
     
     .header .navbar-light a.nav-link {
